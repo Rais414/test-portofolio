@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portofolio</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <!-- JavaScript -->
+    <script
+      src="script.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <a
+          href="#home"
+          class="logo"
+          >PORT<span>FOLIO.</span></a
+        >
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Buka menu"
+        >
+          ☰
+        </button>
+
+        <ul
+          class="nav-links"
+          id="navLinks"
+        >
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section
+      id="home"
+      class="hero"
+    >
+      <div class="hero-content">
+        <p class="subtitle">HALO, SAYA</p>
+
+        <h1>Muhammad Rais Salman <span></span></h1>
+
+        <h2>Full Stack Developer</h2>
+
+        <p class="description">Saya seorang developer yang memiliki minat dalam pengembangan website modern, responsif, dan menarik. Saya senang mempelajari teknologi baru serta menciptakan solusi digital yang bermanfaat.</p>
+
+        <div class="hero-buttons">
+          <a
+            href="#projects"
+            class="btn-primary"
+          >
+            Lihat Project
+          </a>
+
+          <a
+            href="#contact"
+            class="btn-secondary"
+          >
+            Hubungi Saya
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="profile.jpeg"
+          alt="Foto Profil"
+        />
+      </div>
+    </section>
+
+    <!-- SKILL SECTION -->
+    <section
+      id="skills"
+      class="section"
+    >
+      <div class="section-title">
+        <p class="subtitle">KEMAMPUAN</p>
+        <h2>Skill <span>Teknis</span></h2>
+        <p>Berikut adalah kemampuan teknis yang saya miliki.</p>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill">
+          <div class="skill-info">
+            <h3>HTML</h3>
+            <span>90%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar html"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <h3>CSS</h3>
+            <span>85%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar css"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <h3>JavaScript</h3>
+            <span>75%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar javascript"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <h3>React</h3>
+            <span>65%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar react"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <h3>Node.js</h3>
+            <span>60%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar node"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <h3>Git & GitHub</h3>
+            <span>80%</span>
+          </div>
+          <div class="progress">
+            <div class="progress-bar git"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section
+      id="projects"
+      class="section projects-section"
+    >
+      <div class="section-title">
+        <p class="subtitle">PORTOFOLIO</p>
+        <h2>Project <span>Pilihan</span></h2>
+        <p>Beberapa project yang pernah saya kerjakan.</p>
+      </div>
+
+      <div class="projects-container">
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <img
+            src="https://placehold.co/600x350/dce8ff/2457c5?text=Website+Company"
+            alt="Website Company Profile"
+          />
+
+          <div class="project-content">
+            <span class="project-category">Web Development</span>
+
+            <h3>Website Company Profile</h3>
+
+            <p>Website profil perusahaan dengan tampilan responsif, modern, dan informatif.</p>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="https://example.com/"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <img
+            src="https://placehold.co/600x350/e2f5ef/16805d?text=Dashboard"
+            alt="Dashboard Data"
+          />
+
+          <div class="project-content">
+            <span class="project-category">Dashboard</span>
+
+            <h3>Dashboard Data</h3>
+
+            <p>Dashboard untuk menampilkan data dan informasi secara terstruktur serta mudah dipahami.</p>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="https://example.com/"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+          <img
+            src="https://placehold.co/600x350/fff0df/bb6b1b?text=Web+Application"
+            alt="Aplikasi Manajemen"
+          />
+
+          <div class="project-content">
+            <span class="project-category">Web App</span>
+
+            <h3>Aplikasi Manajemen</h3>
+
+            <p>Aplikasi web untuk membantu pengelolaan informasi dan pencatatan data.</p>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                href="https://example.com/"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section
+      id="experience"
+      class="section"
+    >
+      <div class="section-title">
+        <p class="subtitle">PERJALANAN</p>
+        <h2>Pengalaman <span>Kerja</span></h2>
+        <p>Pengalaman kerja, organisasi, atau magang.</p>
+      </div>
+
+      <div class="experience-container">
+        <div class="experience-card">
+          <div class="experience-header">
+            <h3>Web Developer</h3>
+            <span>2025 - Sekarang</span>
+          </div>
+
+          <h4>Perusahaan ABC</h4>
+
+          <p>Bertanggung jawab mengembangkan dan memelihara website perusahaan, membuat tampilan responsif, serta meningkatkan pengalaman pengguna.</p>
+
+          <ul>
+            <li>Membuat halaman website menggunakan HTML, CSS, dan JavaScript.</li>
+            <li>Melakukan perbaikan bug dan pengujian website.</li>
+            <li>Bekerja sama dengan tim dalam pengembangan aplikasi.</li>
+          </ul>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <h3>Web Developer Intern</h3>
+            <span>2024 - 2025</span>
+          </div>
+
+          <h4>Organisasi XYZ</h4>
+
+          <p>Membantu tim dalam pembuatan website dan implementasi desain antarmuka.</p>
+
+          <ul>
+            <li>Membantu pengembangan halaman website.</li>
+            <li>Mempelajari pengelolaan kode menggunakan Git.</li>
+            <li>Membuat dokumentasi project.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section
+      id="contact"
+      class="section contact-section"
+    >
+      <div class="section-title">
+        <p class="subtitle">TERHUBUNG</p>
+        <h2>Hubungi <span>Saya</span></h2>
+        <p>Silakan kirim pesan untuk kerja sama atau peluang baru.</p>
+      </div>
+
+      <div class="contact-container">
+        <!-- INFORMASI KONTAK -->
+        <div class="contact-info">
+          <h3>Informasi Kontak</h3>
+
+          <div class="contact-item">
+            <h4>Email</h4>
+            <p>raissalman414@gmail.com</p>
+          </div>
+
+          <div class="contact-item">
+            <h4>Nomor Telepon</h4>
+            <p>083842595243</p>
+          </div>
+
+          <div class="contact-item">
+            <h4>Lokasi</h4>
+            <p>Amerika Serikat</p>
+          </div>
+        </div>
+
+        <!-- FORM KONTAK -->
+        <form id="contactForm">
+          <label for="name">Nama</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Masukkan nama lengkap"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email"
+            required
+          />
+
+          <label for="message">Pesan</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tuliskan pesan Anda"
+            required
+          ></textarea>
+
+          <p id="formMessage"></p>
+
+          <button
+            type="submit"
+            class="btn-primary"
+          >
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© <span id="year"></span> Nama Lengkap. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
